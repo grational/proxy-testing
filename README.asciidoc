@@ -1,0 +1,12 @@
+= Proxy Testing
+
+A tool is used to test the functionality state of a list
+of proxies used by the proxy-manager tool.
+
+Several options are possibles:
+
+- [--all|-a]              test all the proxies against a google query
+- [--facebook|-f]         make a facebook query to test them
+- [--proxy|-p] <proxy_ip> test only the specified proxy
+- [--url|-u] <url>        specify the url to test against
+- [--tcp-port|-t] <port>  specify a different port number for the proxies
